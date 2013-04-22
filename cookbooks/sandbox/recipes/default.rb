@@ -6,3 +6,9 @@
 #
 # License rnder apache2.
 #
+
+
+file "/tmp/cha-ra.txt" do
+  content node['text_contents']
+  mode "0600"
+end
