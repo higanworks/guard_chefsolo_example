@@ -1,1 +1,5 @@
-{}
+{
+  "run_list": [
+    "sandbox::default"
+  ]
+}
